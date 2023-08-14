@@ -109,7 +109,7 @@ local ButtonCollectGems = MainTab:CreateButton({
     Name = "Collect All Gems | out of gems = callback error",
     Callback = function()
         while wait() do
-            firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Factory.Gems.Gem1, 1)
+            firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, game:GetService("Workspace").Factory.Gems.Gem2, 1)
         end
     end,
 })
